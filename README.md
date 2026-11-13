@@ -1,5 +1,7 @@
 # Bloomé Scent
 
+[Live website on Vercel](https://bloomescent.vercel.app)
+
 Storefront scented wax dengan SvelteKit dan API katalog terpisah berbasis Rust/Axum. Keduanya membaca `catalog/products.json`. Perubahan katalog masuk ke storefront pada build berikutnya dan ke API pada kompilasi berikutnya.
 
 ## Frontend
