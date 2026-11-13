@@ -5,11 +5,16 @@ export { products };
 export type Product = (typeof products)[number];
 
 export const navigation = [
-  { id: 'home', label: 'Home' },
-  { id: 'company-profile', label: 'Our Story' },
-  { id: 'informasi-produk', label: 'How It Works' },
-  { id: 'produk', label: 'Products' },
-  { id: 'kontak', label: 'Contact' }
+  { href: '/', label: 'Home' },
+  { href: '/our-story', label: 'Our Story' },
+  { href: '/how-it-works', label: 'How It Works' },
+  { href: '/products', label: 'Products' },
+  { href: '/contact', label: 'Contact' }
+];
+
+export const socialLinks = [
+  { label: 'Instagram', handle: '@bloome_scent', href: 'https://www.instagram.com/bloome_scent/' },
+  { label: 'TikTok', handle: '@house.of.bloomee', href: 'https://www.tiktok.com/@house.of.bloomee' }
 ];
 
 const currency = new Intl.NumberFormat('id-ID', { maximumFractionDigits: 0 });

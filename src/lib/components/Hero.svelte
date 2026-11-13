@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { ArrowDown, ArrowUpRight, Flower2, Leaf, Wind } from '@lucide/svelte';
+  import { ArrowUpRight, Flower2, Leaf, Wind } from '@lucide/svelte';
   import { whatsappLink } from '#lib/storefront.ts';
 </script>
 
@@ -14,7 +14,7 @@
         <h1 id="hero-title">Elegant by<br /><em>Nature.</em></h1>
         <p>Handmade wax sachets with dried flowers and fruit peels. Hang one in your favorite corner for a gentle touch of fragrance.</p>
         <div class="actions">
-          <a class="button primary" href="#produk">View products <ArrowDown size={16} aria-hidden="true" /></a>
+          <a class="button primary" href="/products">View products <ArrowUpRight size={16} aria-hidden="true" /></a>
           <a class="button outline" href={whatsappLink()} target="_blank" rel="noopener noreferrer">Order on WhatsApp <ArrowUpRight size={16} aria-hidden="true" /></a>
         </div>
       </div>

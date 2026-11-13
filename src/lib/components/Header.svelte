@@ -1,5 +1,6 @@
 <script lang="ts">
   import { ArrowUpRight, Menu, X } from '@lucide/svelte';
+  import { page } from '$app/state';
   import { navigation } from '#lib/storefront.ts';
   import Brand from './Brand.svelte';
 
@@ -16,18 +17,18 @@
 
 <svelte:window onkeydown={handleEscape} />
 
-<header class="masthead">
+<header class="masthead" id="top">
   <div class="wrap header-inner">
     <Brand />
     <button class="menu-toggle" type="button" aria-label={open ? 'Close menu' : 'Open menu'} aria-expanded={open} aria-controls="site-nav" bind:this={toggle} onclick={() => (open = !open)}>
       {#if open}<X size={23} aria-hidden="true" />{:else}<Menu size={23} aria-hidden="true" />{/if}
     </button>
     <nav id="site-nav" class:open aria-label="Main navigation">
-      {#each navigation as item (item.id)}
-        <a href={'#' + item.id} onclick={() => (open = false)}>{item.label}</a>
+      {#each navigation as item (item.href)}
+        <a href={item.href} aria-current={page.url.pathname === item.href ? 'page' : undefined} onclick={() => (open = false)}>{item.label}</a>
       {/each}
     </nav>
-    <a href="#produk" class="header-action">Explore scents <ArrowUpRight size={15} aria-hidden="true" /></a>
+    <a href="/products" class="header-action">Explore scents <ArrowUpRight size={15} aria-hidden="true" /></a>
   </div>
 </header>
 
@@ -36,8 +37,8 @@
   .header-inner { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; min-height: 74px; gap: 1.5rem; }
   nav { display: flex; align-items: center; gap: clamp(1rem, 2.5vw, 2.7rem); }
   nav a, .header-action { font-size: .8rem; font-weight: 650; text-decoration: none; }
-  nav a { padding-block: .6rem; }
-  nav a:hover { text-decoration: underline; }
+  nav a { display: inline-flex; align-items: center; min-height: 44px; }
+  nav a:hover, nav a[aria-current] { text-decoration: underline; }
   .header-action { justify-self: end; display: flex; align-items: center; gap: .5rem; border-bottom: 1px solid currentColor; padding-block: .33rem; }
   .menu-toggle { display: none; }
   @media (max-width: 850px) {

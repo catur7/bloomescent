@@ -27,8 +27,8 @@ button { font: inherit; }
 :focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
 ::selection { background: #d9d4a6; color: var(--ink); }
 h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: .99; letter-spacing: -.022em; margin: 0; }
-h2 { font-size: clamp(3rem, 5.8vw, 6rem); text-wrap: balance; }
-h2 em { color: var(--olive); }
+h2, .display-title { font-size: clamp(3rem, 5.8vw, 6rem); text-wrap: balance; }
+h2 em, .display-title em { color: var(--olive); }
 .wrap { width: min(100% - var(--gutter) * 2, 86rem); margin-inline: auto; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: .67rem; padding: .72rem 1.14rem; min-height: 46px; border: 1px solid transparent; font-size: .85rem; font-weight: 700; text-decoration: none; transition: background-color 160ms, color 160ms; }
 .primary { background: var(--olive); color: var(--paper); }
@@ -37,7 +37,7 @@ h2 em { color: var(--olive); }
 .outline:hover { background: var(--cream); }
 .light { background: var(--paper); color: var(--olive); }
 .light:hover { background: var(--cream); }
-.text-link { display: inline-flex; align-items: center; align-self: start; gap: .45rem; width: fit-content; color: var(--olive); font-size: .86rem; font-weight: 700; text-decoration: none; border-bottom: 1px solid currentColor; padding: .28rem 0; }
+.text-link { display: inline-flex; align-items: center; align-self: start; gap: .45rem; width: fit-content; min-height: 44px; color: var(--olive); font-size: .86rem; font-weight: 700; text-decoration: none; border-bottom: 1px solid currentColor; padding: .28rem 0; }
 .text-link:hover { color: var(--ink); }
 .skip { position: fixed; inset: .6rem auto auto .6rem; z-index: 10; padding: .6rem 1rem; background: var(--paper); transform: translateY(-150%); }
 .skip:focus { transform: none; }

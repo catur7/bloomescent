@@ -2,7 +2,7 @@
   import { Sprout } from '@lucide/svelte';
 </script>
 
-<a href="#home" class="brand" aria-label="Bloomé Scent home">
+<a href="/" class="brand" aria-label="Bloomé Scent home">
   <Sprout size={25} strokeWidth={1.35} aria-hidden="true" />
   <span>Bloomé <i>Scent</i></span>
 </a>
