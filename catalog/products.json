@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "bloomy-lavender",
+    "name": "Bloomy Lavender",
+    "notes": "Floral segar",
+    "description": "Lavender yang lembut dengan aroma floral yang bersih dan segar.",
+    "priceIdr": 13000,
+    "imageAlt": "Scented wax Bloomy Lavender dengan bunga merah dan daun kering"
+  },
+  {
+    "slug": "jasmine",
+    "name": "Jasmine",
+    "notes": "Melati manis",
+    "description": "Wangi bunga melati yang manis dan lembut.",
+    "priceIdr": 13000,
+    "imageAlt": "Scented wax Jasmine berbentuk oval dengan bunga dan daun kering"
+  },
+  {
+    "slug": "dalgona-coffee",
+    "name": "Dalgona Coffee",
+    "notes": "Kopi creamy",
+    "description": "Aroma latte yang hangat dan creamy, dengan sedikit sentuhan manis.",
+    "priceIdr": 13000,
+    "imageAlt": "Scented wax Dalgona Coffee dengan kelopak merah muda dan daun kering"
+  }
+]

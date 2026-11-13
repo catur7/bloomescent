@@ -1,0 +1,35 @@
+{
+  "name": "bloome-scent",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:api": "cargo test --locked --manifest-path backend/Cargo.toml"
+  },
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "private": true,
+  "devDependencies": {
+    "@opentelemetry/api": "1.10.0",
+    "@sveltejs/adapter-vercel": "7.0.3",
+    "@sveltejs/kit": "3.2.0",
+    "@sveltejs/vite-plugin-svelte": "7.3.1",
+    "@types/node": "24.19.2",
+    "svelte": "5.57.3",
+    "svelte-check": "4.7.8",
+    "typescript": "6.0.3",
+    "vite": "8.3.8"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "5.3.0",
+    "@fontsource/instrument-serif": "5.3.0",
+    "@lucide/svelte": "1.72.0"
+  },
+  "imports": {
+    "#lib/*": "./src/lib/*"
+  }
+}

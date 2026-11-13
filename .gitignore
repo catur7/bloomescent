@@ -1,0 +1,10 @@
+node_modules/
+.svelte-kit/
+.vercel/
+backend/target/
+.env*
+!.env.example
+*.log
+
+.vercel
+.env*
