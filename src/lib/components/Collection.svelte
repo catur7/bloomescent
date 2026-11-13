@@ -5,8 +5,8 @@
 
 <section id="produk" class="collection wrap" aria-labelledby="collection-title">
   <div class="heading">
-    <h2 id="collection-title">Temukan <em>aromamu.</em></h2>
-    <p>Tiga aroma scented wax untuk sudut favoritmu.</p>
+    <h2 id="collection-title">Find <em>your scent.</em></h2>
+    <p>Three scents, from fresh lavender to warm coffee.</p>
   </div>
   <div class="products">
     {#each products as product (product.slug)}
@@ -19,7 +19,7 @@
           <span>{formatRupiah(product.priceIdr)}</span>
         </div>
         <p>{product.description}</p>
-        <a class="text-link" href={whatsappLink(product)} target="_blank" rel="noopener noreferrer" aria-label={'Pesan via WhatsApp: ' + product.name}>Pesan via WhatsApp <ArrowUpRight size={15} aria-hidden="true" /></a>
+        <a class="text-link" href={whatsappLink(product)} target="_blank" rel="noopener noreferrer" aria-label={`Order on WhatsApp: ${product.name}`}>Order on WhatsApp <ArrowUpRight size={15} aria-hidden="true" /></a>
       </article>
     {/each}
   </div>

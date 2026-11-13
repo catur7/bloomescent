@@ -7,24 +7,24 @@
   <div class="stage">
     <picture class="visual">
       <source media="(max-width: 700px)" srcset="/images/hero-mobile.webp" />
-      <img src="/images/hero.webp" srcset="/images/hero-compact.webp 1000w, /images/hero.webp 1600w" sizes="100vw" width="1600" height="900" fetchpriority="high" alt="Tiga scented wax Bloomé dengan bunga dan daun kering di atas kain berwarna krem" />
+      <img src="/images/hero.webp" srcset="/images/hero-compact.webp 1000w, /images/hero.webp 1600w" sizes="100vw" width="1600" height="900" fetchpriority="high" alt="Three Bloomé wax sachets decorated with dried flowers and leaves on cream fabric" />
     </picture>
     <div class="wrap hero-inner">
       <div class="copy">
-        <h1 id="hero-title" lang="en">Elegant by<br /><em>Nature.</em></h1>
-        <p>Scented wax buatan tangan dengan bunga dan kulit buah kering. Cukup gantung untuk memberi aroma pada sudut favoritmu.</p>
+        <h1 id="hero-title">Elegant by<br /><em>Nature.</em></h1>
+        <p>Handmade wax sachets with dried flowers and fruit peels. Hang one in your favorite corner for a gentle touch of fragrance.</p>
         <div class="actions">
-          <a class="button primary" href="#produk">Lihat produk <ArrowDown size={16} aria-hidden="true" /></a>
-          <a class="button outline" href={whatsappLink()} target="_blank" rel="noopener noreferrer">Pesan <ArrowUpRight size={16} aria-hidden="true" /></a>
+          <a class="button primary" href="#produk">View products <ArrowDown size={16} aria-hidden="true" /></a>
+          <a class="button outline" href={whatsappLink()} target="_blank" rel="noopener noreferrer">Order on WhatsApp <ArrowUpRight size={16} aria-hidden="true" /></a>
         </div>
       </div>
     </div>
   </div>
   <div class="qualities">
-    <ul class="wrap" aria-label="Karakter produk">
-      <li><Flower2 size={18} strokeWidth={1.55} aria-hidden="true" /> Buatan tangan</li>
-      <li><Leaf size={18} strokeWidth={1.55} aria-hidden="true" /> Bahan upcycling</li>
-      <li><Wind size={18} strokeWidth={1.55} aria-hidden="true" /> Tanpa dibakar</li>
+    <ul class="wrap" aria-label="Product highlights">
+      <li><Flower2 size={18} strokeWidth={1.55} aria-hidden="true" /> Handmade</li>
+      <li><Leaf size={18} strokeWidth={1.55} aria-hidden="true" /> Upcycled details</li>
+      <li><Wind size={18} strokeWidth={1.55} aria-hidden="true" /> No flame needed</li>
     </ul>
   </div>
 </section>

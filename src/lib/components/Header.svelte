@@ -19,15 +19,15 @@
 <header class="masthead">
   <div class="wrap header-inner">
     <Brand />
-    <button class="menu-toggle" type="button" aria-label={open ? 'Tutup menu' : 'Buka menu'} aria-expanded={open} aria-controls="site-nav" bind:this={toggle} onclick={() => (open = !open)}>
+    <button class="menu-toggle" type="button" aria-label={open ? 'Close menu' : 'Open menu'} aria-expanded={open} aria-controls="site-nav" bind:this={toggle} onclick={() => (open = !open)}>
       {#if open}<X size={23} aria-hidden="true" />{:else}<Menu size={23} aria-hidden="true" />{/if}
     </button>
-    <nav id="site-nav" class:open aria-label="Navigasi utama">
+    <nav id="site-nav" class:open aria-label="Main navigation">
       {#each navigation as item (item.id)}
         <a href={'#' + item.id} onclick={() => (open = false)}>{item.label}</a>
       {/each}
     </nav>
-    <a href="#produk" class="header-action">Pilih aroma <ArrowUpRight size={15} aria-hidden="true" /></a>
+    <a href="#produk" class="header-action">Explore scents <ArrowUpRight size={15} aria-hidden="true" /></a>
   </div>
 </header>
 

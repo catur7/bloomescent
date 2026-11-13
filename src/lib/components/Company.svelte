@@ -1,13 +1,13 @@
 <section id="company-profile" class="company wrap" aria-labelledby="company-title">
   <figure>
-    <img src="/images/upcycling.webp" srcset="/images/upcycling-small.webp 420w, /images/upcycling.webp 760w" sizes="(max-width: 700px) 92vw, 46vw" width="760" height="1140" loading="lazy" alt="Scented wax dengan potongan jeruk kering dan kelopak bunga" />
-    <figcaption>Detail bunga dan kulit buah kering pada scented wax Bloomé.</figcaption>
+    <img src="/images/upcycling.webp" srcset="/images/upcycling-small.webp 420w, /images/upcycling.webp 760w" sizes="(max-width: 700px) 92vw, 46vw" width="760" height="1140" loading="lazy" alt="A wax sachet decorated with dried citrus slices and flower petals" />
+    <figcaption>A closer look at the dried flowers and citrus in a Bloomé sachet.</figcaption>
   </figure>
   <div class="story">
-    <h2 id="company-title">Kehidupan baru<br /> <em>untuk bunga dan buah.</em></h2>
-    <p>Bloomé Scent adalah brand home fragrance dari Semarang. Kami membuat scented wax yang memberi aroma sekaligus mempercantik sudut-sudut kecil di rumah.</p>
-    <p>Lewat upcycling, kami memanfaatkan bunga sisa dan kulit buah yang masih layak olah. Setelah dikeringkan, bahan-bahan ini menjadi bagian dari setiap desain, dengan bentuk dan susunan yang bisa berbeda di tiap buah.</p>
-    <a class="text-link" href="#informasi-produk">Kenali scented wax Bloomé <span aria-hidden="true">→</span></a>
+    <h2 id="company-title">A second life for <em>flowers and fruit.</em></h2>
+    <p>We’re Bloomé Scent, a home fragrance brand from Semarang. We make scented wax sachets to brighten the little corners of your home.</p>
+    <p>We save leftover flowers and fruit peels that would otherwise go to waste. Once dried, they become part of our designs, so each sachet has its own arrangement.</p>
+    <a class="text-link" href="#informasi-produk">How our wax sachets work <span aria-hidden="true">→</span></a>
   </div>
 </section>
 

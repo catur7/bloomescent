@@ -6,10 +6,10 @@ export type Product = (typeof products)[number];
 
 export const navigation = [
   { id: 'home', label: 'Home' },
-  { id: 'company-profile', label: 'Company Profile' },
-  { id: 'informasi-produk', label: 'Informasi Produk' },
-  { id: 'produk', label: 'Produk' },
-  { id: 'kontak', label: 'Kontak' }
+  { id: 'company-profile', label: 'Our Story' },
+  { id: 'informasi-produk', label: 'How It Works' },
+  { id: 'produk', label: 'Products' },
+  { id: 'kontak', label: 'Contact' }
 ];
 
 const currency = new Intl.NumberFormat('id-ID', { maximumFractionDigits: 0 });
@@ -23,8 +23,8 @@ export function formatRupiah(amount: number) {
 
 export function whatsappLink(product?: Product) {
   const message = product
-    ? `Halo Bloomé Scent! Saya ingin pesan ${product.name} (${formatRupiah(product.priceIdr)} per buah). Apakah masih tersedia?`
-    : 'Halo Bloomé Scent! Saya tertarik dengan scented wax Bloomé. Boleh tanya pilihan aromanya?';
+    ? `Hi Bloomé Scent! I'd like to order ${product.name} (${formatRupiah(product.priceIdr)} each). Is it available?`
+    : "Hi Bloomé Scent! I'm interested in your wax sachets. Could you tell me which scents are available?";
 
   return `https://wa.me/${hasWhatsAppNumber ? recipient : ''}?text=${encodeURIComponent(message)}`;
 }

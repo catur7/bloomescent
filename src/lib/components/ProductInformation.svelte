@@ -2,16 +2,16 @@
   import { Flower2, Hand, Leaf, Wind } from '@lucide/svelte';
 
   const details = [
-    { name: 'Bahan', text: 'Wax dan fragrance oil, dengan hiasan bunga, daun, dan kulit buah kering.' },
-    { name: 'Cara pakai', text: 'Gantung dengan tali yang tersedia atau letakkan di rak. Tidak perlu dibakar.' },
-    { name: 'Tempat yang cocok', text: 'Lemari, rak penyimpanan, kamar tidur, kamar mandi, dan ruang kecil lainnya.' }
+    { name: 'Materials', text: 'Wax and fragrance oil, finished with dried flowers, leaves, and fruit peels.' },
+    { name: 'How to use it', text: 'Hang it by the attached cord or set it on a shelf. No flame needed.' },
+    { name: 'Where to use it', text: 'Closets, shelves, bedrooms, bathrooms, and other small spaces.' }
   ];
 
   const benefits = [
-    { icon: Wind, title: 'Aroma untuk ruang kecil', text: 'Pilih wangi floral, melati, atau kopi sesuai suasana yang kamu inginkan.' },
-    { icon: Flower2, title: 'Sekaligus dekorasi', text: 'Susunan bunga dan daun kering memberi detail pada setiap scented wax.' },
-    { icon: Hand, title: 'Mudah dipakai', text: 'Cukup gantung atau letakkan. Tanpa api dan tanpa listrik.' },
-    { icon: Leaf, title: 'Bahan yang dimanfaatkan kembali', text: 'Bunga sisa dan kulit buah yang masih layak olah mendapat kegunaan baru.' }
+    { icon: Wind, title: 'Scents for small spaces', text: 'Choose from fresh lavender, sweet jasmine, and warm coffee.' },
+    { icon: Flower2, title: 'Decorative by design', text: 'Dried flowers and leaves make each sachet a little different.' },
+    { icon: Hand, title: 'Easy to use', text: 'Hang it up or set it down. It releases fragrance on its own.' },
+    { icon: Leaf, title: 'Upcycled details', text: 'Leftover flowers and fruit peels get a second life in our sachets.' }
   ];
 </script>
 
@@ -19,8 +19,8 @@
   <div class="wrap">
     <div class="intro">
       <div>
-        <h2 id="info-title">Wangi yang<br /><em>cukup digantung.</em></h2>
-        <p>Scented wax melepas aroma secara alami dan bisa dipajang di sudut favoritmu.</p>
+        <h2 id="info-title">Simply hang <em>and enjoy.</em></h2>
+        <p>Each wax sachet releases its scent into the air as it hangs or rests on a shelf.</p>
       </div>
       <dl>
         {#each details as detail (detail.name)}
@@ -29,14 +29,14 @@
       </dl>
     </div>
     <div class="why">
-      <h3>Mengapa pilih Bloomé?</h3>
+      <h3>Why choose Bloomé?</h3>
       <ul>
         {#each benefits as { icon: Icon, title, text } (title)}
           <li><Icon size={23} strokeWidth={1.4} aria-hidden="true" /><div><h4>{title}</h4><p>{text}</p></div></li>
         {/each}
       </ul>
     </div>
-    <p class="note">Intensitas dan ketahanan aroma bergantung pada kondisi ruangan dan penempatan.</p>
+    <p class="note">How strong the scent is and how long it lasts depend on the room and where you place the sachet.</p>
   </div>
 </section>
 

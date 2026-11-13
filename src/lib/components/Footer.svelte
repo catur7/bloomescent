@@ -8,22 +8,22 @@
   <div class="wrap">
     <div class="contact">
       <div>
-        <h2 id="contact-title">Bingung pilih aroma?</h2>
-        <p>Tanya tentang varian atau cara pesan lewat WhatsApp.</p>
+        <h2 id="contact-title">Need help choosing a scent?</h2>
+        <p>Message us on WhatsApp to talk scents or place an order.</p>
       </div>
-      <a class="button light" href={whatsappLink()} target="_blank" rel="noopener noreferrer">Buka WhatsApp <ArrowUpRight size={16} aria-hidden="true" /></a>
+      <a class="button light" href={whatsappLink()} target="_blank" rel="noopener noreferrer">Chat on WhatsApp <ArrowUpRight size={16} aria-hidden="true" /></a>
     </div>
     <div class="site-map">
       <div><Brand /><p>Elegant by Nature<br />Semarang, Indonesia</p></div>
-      <nav aria-label="Navigasi footer">
+      <nav aria-label="Footer navigation">
         {#each navigation as item (item.id)}<a href={'#' + item.id}>{item.label}</a>{/each}
       </nav>
-      <div class="social" aria-label="Media sosial">
+      <div class="social" aria-label="Social media">
         <a href="https://www.instagram.com/bloome_scent/" target="_blank" rel="noopener noreferrer">Instagram <ArrowUpRight size={14} aria-hidden="true" /></a>
         <a href="https://www.tiktok.com/@house.of.bloomee" target="_blank" rel="noopener noreferrer">TikTok <ArrowUpRight size={14} aria-hidden="true" /></a>
       </div>
     </div>
-    <div class="legal"><small>© Bloomé Scent</small><a href="#home">Kembali ke atas <ArrowUp size={14} aria-hidden="true" /></a></div>
+    <div class="legal"><small>© 2026 Bloomé Scent. All rights reserved.</small><a href="#home">Back to top <ArrowUp size={14} aria-hidden="true" /></a></div>
   </div>
 </footer>
 

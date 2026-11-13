@@ -2,25 +2,25 @@
   {
     "slug": "bloomy-lavender",
     "name": "Bloomy Lavender",
-    "notes": "Floral segar",
-    "description": "Lavender yang lembut dengan aroma floral yang bersih dan segar.",
+    "notes": "Fresh floral",
+    "description": "Soft lavender with a clean, airy finish.",
     "priceIdr": 13000,
-    "imageAlt": "Scented wax Bloomy Lavender dengan bunga merah dan daun kering"
+    "imageAlt": "Bloomy Lavender wax sachet with a red flower and a dried leaf"
   },
   {
     "slug": "jasmine",
     "name": "Jasmine",
-    "notes": "Melati manis",
-    "description": "Wangi bunga melati yang manis dan lembut.",
+    "notes": "Sweet jasmine",
+    "description": "A sweet, delicate scent with the familiar fragrance of jasmine blossoms.",
     "priceIdr": 13000,
-    "imageAlt": "Scented wax Jasmine berbentuk oval dengan bunga dan daun kering"
+    "imageAlt": "Oval Jasmine wax sachet with dried flowers and leaves"
   },
   {
     "slug": "dalgona-coffee",
     "name": "Dalgona Coffee",
-    "notes": "Kopi creamy",
-    "description": "Aroma latte yang hangat dan creamy, dengan sedikit sentuhan manis.",
+    "notes": "Creamy coffee",
+    "description": "Warm, creamy latte notes with a hint of sweetness.",
     "priceIdr": 13000,
-    "imageAlt": "Scented wax Dalgona Coffee dengan kelopak merah muda dan daun kering"
+    "imageAlt": "Dalgona Coffee wax sachet with pink petals and a dried leaf"
   }
 ]
