@@ -42,7 +42,7 @@
   p { max-width: 30ch; margin: 1.65rem 0 1.65rem; font-size: clamp(.98rem, 1.2vw, 1.125rem); line-height: 1.65; }
   .actions { display: flex; flex-wrap: wrap; gap: .65rem; }
   .qualities { background: var(--olive); color: var(--paper); }
-  .qualities ul { list-style: none; padding: .91rem 0; display: grid; grid-template-columns: repeat(3, 1fr); }
+  .qualities ul { list-style: none; margin-block: 0; padding: .91rem 0; display: grid; grid-template-columns: repeat(3, 1fr); }
   li { display: flex; justify-content: center; align-items: center; gap: .65rem; min-height: 1.8rem; text-align: center; font-size: .81rem; font-weight: 600; letter-spacing: .025em; }
   li + li { border-left: 1px solid #f7eddb45; }
   @media (max-width: 700px) {

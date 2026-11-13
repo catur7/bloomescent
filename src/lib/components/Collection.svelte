@@ -19,7 +19,7 @@
           <span>{formatRupiah(product.priceIdr)}</span>
         </div>
         <p>{product.description}</p>
-        <a class="text-link" href={whatsappLink(product)} target="_blank" rel="noopener noreferrer" aria-label={'Pesan ' + product.name + ' via WhatsApp'}>Pesan via WhatsApp <ArrowUpRight size={15} aria-hidden="true" /></a>
+        <a class="text-link" href={whatsappLink(product)} target="_blank" rel="noopener noreferrer" aria-label={'Pesan via WhatsApp: ' + product.name}>Pesan via WhatsApp <ArrowUpRight size={15} aria-hidden="true" /></a>
       </article>
     {/each}
   </div>
