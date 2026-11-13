@@ -32,7 +32,7 @@
   .products { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1rem, 2.4vw, 2rem); }
   article { border-bottom: 1px solid var(--rule); padding-bottom: 1.15rem; display: flex; flex-direction: column; }
   .photo { overflow: hidden; background: var(--cream); }
-  img { width: 100%; aspect-ratio: .91; object-fit: cover; object-position: center 56%; transition: transform 450ms ease; }
+  img { width: 100%; height: auto; aspect-ratio: .91; object-fit: cover; object-position: center 56%; transition: transform 450ms ease; }
   .title-row { display: flex; flex-wrap: wrap; gap: .35rem .8rem; align-items: baseline; justify-content: space-between; margin-top: 1.1rem; }
   h3 { font-size: clamp(1.75rem, 3vw, 2.65rem); }
   .title-row span { font-size: .87rem; font-weight: 700; font-variant-numeric: tabular-nums; }

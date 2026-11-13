@@ -14,7 +14,7 @@
 <style>
   .company { display: grid; grid-template-columns: 1fr .94fr; align-items: center; gap: clamp(2.5rem, 8vw, 8.75rem); padding-block: var(--section); }
   figure { margin: 0; }
-  img { width: 100%; aspect-ratio: 1.14; object-fit: cover; object-position: center 56%; }
+  img { width: 100%; height: auto; aspect-ratio: 1.14; object-fit: cover; object-position: center 56%; }
   figcaption { margin-top: .72rem; color: var(--muted); font-size: .75rem; }
   h2 { margin-bottom: 1.3rem; }
   p { max-width: 47ch; margin-block: 0 1rem; }
